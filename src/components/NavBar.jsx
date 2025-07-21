@@ -17,11 +17,11 @@ export default function NavBar() {
         </div>
 
         <ul className="hidden md:flex gap-6 md:text-[12px] font-semibold lg:text-[15px] tracking-wider uppercase">
-          <li><a href="#home" className="hover:text-soft-black">Home</a></li>
-          <li><a href="#about" className="hover:text-soft-black">Education</a></li>
-          <li><a href="#skills" className="hover:text-soft-black">Skills</a></li>
-          <li><a href="#profiles" className="hover:text-soft-black">Profiles</a></li>
-          <li><a href="#projects" className="hover:text-soft-black">Projects</a></li>
+          <li><a href="#home" className="hover:text-[#65BE97]">Home</a></li>
+          <li><a href="#about" className="hover:text-[#65BE97]">Education</a></li>
+          <li><a href="#skills" className="hover:text-[#65BE97]">Skills</a></li>
+          <li><a href="#profiles" className="hover:text-[#65BE97]">Profiles</a></li>
+          <li><a href="#projects" className="hover:text-[#65BE97]">Projects</a></li>
         </ul>
        
         <div className="md:hidden">
@@ -32,12 +32,12 @@ export default function NavBar() {
       </div>
 
       {isOpen && (
-  <ul className="md:hidden fixed top-16 left-0 w-full z-50 flex flex-col items-center gap-4 px-6 py-4 font-semibold text-[15px] tracking-wider uppercase bg-[#333333]/70 backdrop-blur-md rounded-b-xl shadow-lg">
-    <li><a href="#home" className="hover:text-soft-black transition-colors duration-300">Home</a></li>
-    <li><a href="#about" className="hover:text-soft-black transition-colors duration-300">Education</a></li>
-    <li><a href="#skills" className="hover:text-soft-black transition-colors duration-300">Skills</a></li>
-    <li><a href="#profiles" className="hover:text-soft-black transition-colors duration-300">Profiles</a></li>
-    <li><a href="#projects" className="hover:text-soft-black transition-colors duration-300">Projects</a></li>
+  <ul className="md:hidden fixed h-[90vh] justify-center top-16 left-0 w-full z-50 flex flex-col items-center gap-4 px-6 py-4 font-semibold text-[20px] tracking-wider uppercase bg-[#222222]/70 backdrop-blur-md rounded-b-xl shadow-lg">
+    <li><a href="#home" className="hover:text-[#65BE97] transition-colors duration-300">Home</a></li>
+    <li><a href="#about" className="hover:text-[#65BE97] transition-colors duration-300">Education</a></li>
+    <li><a href="#skills" className="hover:text-[#65BE97] transition-colors duration-300">Skills</a></li>
+    <li><a href="#profiles" className="hover:text-[#65BE97] transition-colors duration-300">Profiles</a></li>
+    <li><a href="#projects" className="hover:text-[#65BE97] transition-colors duration-300">Projects</a></li>
   </ul>
 )}
 
