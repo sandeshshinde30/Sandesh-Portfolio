@@ -16,15 +16,13 @@ export default function NavBar() {
           </h1>
         </div>
 
-     
-        <ul className="hidden md:flex gap-6 font-semibold text-[15px] tracking-wider uppercase">
+        <ul className="hidden md:flex gap-6 md:text-[12px] font-semibold lg:text-[15px] tracking-wider uppercase">
           <li><a href="#home" className="hover:text-soft-black">Home</a></li>
           <li><a href="#about" className="hover:text-soft-black">Education</a></li>
           <li><a href="#skills" className="hover:text-soft-black">Skills</a></li>
           <li><a href="#profiles" className="hover:text-soft-black">Profiles</a></li>
           <li><a href="#projects" className="hover:text-soft-black">Projects</a></li>
         </ul>
-
        
         <div className="md:hidden">
           <button onClick={() => setOpen(!isOpen)}>
@@ -33,7 +31,6 @@ export default function NavBar() {
         </div>
       </div>
 
-  
       {isOpen && (
         <ul className='md:hidden flex flex-col items-center gap-4 px-6 py-4 border-2  font-semibold text-[15px] tracking-wider uppercase bg-[#333333] m-5 rounded-xl  border-[#65BE97]'>
           <li><a href="#home" className="hover:text-soft-black">Home</a></li>
