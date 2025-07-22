@@ -5,7 +5,6 @@ module.exports = {
         colors: {
           'neon-blue': '#65BE97',
           'soft-black' : '#333333'
-          
         },
       },
     },

@@ -14,7 +14,7 @@ export default function MainPage(){
 
     return(
         <>
-        <div className="w-full h-screen md:p-24 p-5">
+        <div className="w-full flex h-screen md:p-24 p-5">
             <div className="flex flex-col gap-3 w-full md:w-1/2 text-white h-3/4 justify-center">
                     <h2 className="text-xl md:text-2xl tracking-wider text-gray-350 " style={{wordSpacing: '0.25rem'}}>Hi, I am</h2>
                     <h1 className="text-4xl md:text-6xl uppercase tracking-wider font-semibold text-[#65BE97]">Sandesh Shinde</h1>
@@ -52,6 +52,18 @@ export default function MainPage(){
                         </div>
                     </div>
             </div>
+            <div className="w-1/2 h-full flex items-center pb-20 justify-center">
+  <div className="w-2/3 aspect-square rounded-full overflow-hidden bg-[#333333] shadow-lg flex items-end justify-center">
+    <img
+      src="/Sandesh.png"
+      alt="Sandesh Shinde"
+      className="w-full h-full object-cover object-top"
+    />
+  </div>
+</div>
+
+
+
         </div>
         </>
     )
