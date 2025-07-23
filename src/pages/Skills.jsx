@@ -1,5 +1,6 @@
 import React from "react";
 import SkillCard from "../components/SkillsCard";
+import skillsData from "../data/skillsData.js"
 
 export default function Skills(){
     return(<>
@@ -11,11 +12,18 @@ export default function Skills(){
             <div className="mt-10 w-full flex justify-center flex-col items-center">
                 <h1 className="text-white uppercase tracking-wider text-2xl font-semibold ">Programming languages</h1>
                <div className="flex w-full gap-10 justify-center mt-10">
+                        {/* <SkillCard/>
                         <SkillCard/>
                         <SkillCard/>
                         <SkillCard/>
-                        <SkillCard/>
-                        <SkillCard/>
+                        <SkillCard/> */}
+
+                        {skillsData.programmingLanguages.map((skill,index) =>(
+                            // <h1 className="text-3xl text-white">{skill.language}</h1>
+                            <SkillCard 
+                            language={skill.language}
+                            icon={skill.icon}/>
+                        ))}
 
                </div>
             </div>
