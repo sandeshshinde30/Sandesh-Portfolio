@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import MainPage from "../components/MainPage";
+import Skills from "./Skills";
 
 export default function Home() {
     return(
@@ -9,6 +10,7 @@ export default function Home() {
 
                 <NavBar/>
                 <MainPage/>
+                <Skills/>
 
             </div>
         </>

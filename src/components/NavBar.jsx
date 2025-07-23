@@ -10,7 +10,7 @@ export default function NavBar() {
       <div className="flex items-center justify-between px-6 py-4 md:px-24">
       
         <div className="flex items-center gap-3">
-          <img src="/logo.svg" alt="S Logo" className="h-10" />
+          <img src="/S.png" alt="S Logo" className="h-10" />
           <h1 className="uppercase text-2xl tracking-wider font-bold">
             Sandesh
           </h1>
