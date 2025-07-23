@@ -14,8 +14,8 @@ export default function MainPage(){
 
     return(
         <>
-        <div className="w-full md:flex-row flex-col flex h-screen md:p-24 p-5 md:pt-24 pt-32">
-        <div className="flex flex-col gap-3 w-full md:w-1/2 text-white md:h-3/4  justify-center md:order-1 order-2">
+        <div className="w-full md:flex-row flex-col flex md:h-screen h-[90vh] md:p-24 p-5 md:pt-24 pt-32">
+        <div className="flex flex-col gap-3 pt-20 md:pt-0 w-full md:w-1/2 text-white md:h-3/4  justify-center md:order-1 order-2">
                     <h2 className="text-xl md:text-2xl tracking-wider text-gray-350 " style={{wordSpacing: '0.25rem'}}>Hi, I am</h2>
                     <h1 className="text-4xl md:text-6xl uppercase tracking-wider font-semibold text-[#65BE97]">Sandesh Shinde</h1>
                     <h2 className="text-xl md:text-2xl uppercase tracking-widest font-semibold text-gray-350">  Software Developer</h2>
