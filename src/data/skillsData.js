@@ -19,6 +19,10 @@ const skills = {
         {tech : "s3" , icon:"S3.svg"},   
         {tech : "IAM" , icon:"IAM.svg"},   
     ],
+    other : [
+        {tech : "docker" , icon:"docker.svg"},
+        {tech : "linux" , icon:"linux.svg"},   
+    ],
 }
 
 export default skills;

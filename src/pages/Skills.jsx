@@ -7,11 +7,11 @@ export default function Skills() {
   const webTech = skillsData.webTechnologies.slice(0, 5);
   const database = skillsData.database.slice(0, 5);
   const aws = skillsData.aws.slice(0, 5);
-
+  const other = skillsData.other.slice(0, 5);
 
 
   return (
-    <div className="flex w-full justify-center h-full">
+    <div className="flex w-full justify-center h-full px-10">
       <div className="flex w-full flex-col items-center">
         <h1 className="text-white uppercase md:text-4xl text-3xl tracking-wider font-bold">
           skills
@@ -73,7 +73,7 @@ export default function Skills() {
           </div>
         </div>
 
-        <div className="h-[1px] bg-[#65BE97] w-full mt-12"> </div>
+        <div className="h-[1px] bg-[#65BE97]  w-full mt-12"> </div>
 
 
          {/* Database */}
@@ -135,6 +135,34 @@ export default function Skills() {
         </div>
         
         <div className="h-[1px] bg-[#65BE97] w-full mt-12"> </div>
+
+         {/* Other */}
+         <div className="mt-10 w-full flex justify-center flex-col items-center">
+          <h1 className="text-white uppercase tracking-widest md:text-2xl text-xl font-semibold ">
+            Other
+          </h1>
+
+          <div
+            className={`
+                grid 
+                grid-cols-2
+                md:gap-10 mt-10  
+                gap-5
+                justify-items-center
+              `}
+                >
+            {other.map((skill, index) => (
+              <div
+                key={index}
+            //     className={`
+            //   ${index === 2 ? "col-span-2 justify-self-center md:col-span-1" : ""}
+            // `}
+              >
+                <SkillCard language={skill.tech} icon={skill.icon} />
+              </div>
+            ))}
+          </div>
+        </div>
 
       </div>
     </div>

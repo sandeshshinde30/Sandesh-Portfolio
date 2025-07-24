@@ -53,7 +53,7 @@ export default function MainPage(){
                     </div>
             </div>
             <div className="md:w-1/2 w-full md:order-2 order-1 md:h-full h-1/3 flex items-center pb-20 justify-center">
-            <div className="md:w-2/3 w-3/4 aspect-square rounded-full overflow-hidden bg-[#333333] shadow-lg flex items-end justify-center">
+            <div className="md:w-2/3 w-4/5 aspect-square rounded-full overflow-hidden bg-[#333333] shadow-lg flex items-end justify-center">
                 <img
                 src="/Sandesh.png"
                 alt="Sandesh Shinde"
