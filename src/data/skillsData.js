@@ -14,6 +14,11 @@ const skills = {
         {database : "mysql" , icon:"mysql.svg"},
         {database : "mongodb" , icon:"mongodb.svg"},   
     ],
+    aws : [
+        {tech : "EC2" , icon:"EC2.svg"},
+        {tech : "s3" , icon:"S3.svg"},   
+        {tech : "IAM" , icon:"IAM.svg"},   
+    ],
 }
 
 export default skills;

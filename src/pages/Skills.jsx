@@ -6,6 +6,8 @@ export default function Skills() {
   const visibleSkills = skillsData.programmingLanguages.slice(0, 5);
   const webTech = skillsData.webTechnologies.slice(0, 5);
   const database = skillsData.database.slice(0, 5);
+  const aws = skillsData.aws.slice(0, 5);
+
 
 
   return (
@@ -94,7 +96,39 @@ export default function Skills() {
               <div
                 key={index}
               >
-                <SkillCard language={skill.language} icon={skill.icon} />
+                <SkillCard language={skill.database} icon={skill.icon} />
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="h-[1px] bg-[#65BE97] w-full mt-12"> </div>
+
+
+         {/* AWS */}
+         <div className="mt-10 w-full flex justify-center flex-col items-center">
+          <h1 className="text-white uppercase tracking-widest md:text-2xl text-xl font-semibold ">
+            Amazon web services
+          </h1>
+
+          <div
+            className={`
+                grid 
+                grid-cols-2
+                md:grid-cols-3
+                md:gap-10 mt-10  
+                gap-5
+                justify-items-center
+              `}
+                >
+            {aws.map((skill, index) => (
+              <div
+                key={index}
+                className={`
+              ${index === 2 ? "col-span-2 justify-self-center md:col-span-1" : ""}
+            `}
+              >
+                <SkillCard language={skill.tech} icon={skill.icon} />
               </div>
             ))}
           </div>
