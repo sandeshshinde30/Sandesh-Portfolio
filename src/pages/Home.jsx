@@ -6,7 +6,7 @@ import Skills from "./Skills";
 export default function Home() {
     return(
         <>
-            <div className="h-full w-full bg-black">
+            <div className="h-full w-full bg-black px-10">
 
                 <NavBar/>
                 <MainPage/>
