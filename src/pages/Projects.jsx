@@ -11,7 +11,7 @@ export default function Projects(){
                 Projects
                 </h1>
 
-               <div className="mt-10 flex gap-20 justify-center" >
+               <div className="mt-10 flex md:flex-row flex-col gap-20 justify-center" >
                  
                 {/* <ProjectCard/>
                 <ProjectCard/>

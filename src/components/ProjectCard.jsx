@@ -8,12 +8,13 @@ export default function ProjectCard({project}){
     
     return(<>
 
-        <div className="flex flex-col py-10 gap-3 bg-[#333333] border-3 border-[#65BE97] rounded-xl w-1/4 p-5">
+        <div className="flex flex-col py-10 gap-3 bg-[#333333] border-3 border-[#65BE97] rounded-xl md:w-1/4 p-5">
                    <h1 className="text-2xl text-center text-white uppercase tracking-wider font-semibold">{project.title}</h1>
                    <img src={project.image} alt="sandrop" className="h-40 rounded-md"/>
                    
                    <h1 className="text-md text-center text-white  tracking-wider font-semibold">{project.description}</h1>
-                   <div className={`grid ${project.technologies.length<4 ? `grid-cols-${project.technologies.length}` : "grid-cols-4"} gap-1 w-full `}>
+                  <div className={`${project.technologies.length < 4 ? 'flex justify-center w-full' : 'grid grid-cols-4 w-full gap-1'}`}>
+
                     {project.technologies.map((tech, index) => {
                         const theme = techTheme[tech] || { bg: "#666", color: "#fff" }; 
                         return (

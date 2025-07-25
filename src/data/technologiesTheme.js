@@ -11,13 +11,13 @@ const techTheme = {
     bg: "#778278",      
     color: "#FFFFFF"
   },
-  "Tailwind js": {
+  "Tailwind": {
     bg: "#65BE97",      
     color: "#65BE97"    
   },
   "Mongo DB": {
     bg: "#75D75D",      
-    color: "#099601"
+    color: "#0EDB03"
   },
   "AWS EC2": {
     bg: "#FF9900",     
@@ -29,11 +29,11 @@ const techTheme = {
   },
   "Docker": {
     bg: "#469AED",     
-    color: "#469AED"
+    color: "#6EB6FD"
   },
   "Java": {
     bg: "#469AED",     
-    color: "#469AED"
+    color: "#6EB6FD"
   },
   "WebSocket" : {
     bg: "#E7672C",     
