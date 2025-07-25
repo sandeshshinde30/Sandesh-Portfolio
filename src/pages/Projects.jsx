@@ -1,5 +1,7 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
+import projectData from "../data/projectData";
+
 
 export default function Projects(){
     return(
@@ -11,9 +13,14 @@ export default function Projects(){
 
                <div className="mt-10 flex gap-20 justify-center" >
                  
+                {/* <ProjectCard/>
                 <ProjectCard/>
-                <ProjectCard/>
-                <ProjectCard/>
+                <ProjectCard/> */}
+                {
+                    projectData.map((project,index)=>(
+                        <ProjectCard project={project}/>
+                ))
+                }
 
 
                </div>
