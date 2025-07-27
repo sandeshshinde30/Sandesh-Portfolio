@@ -1,43 +1,41 @@
 const techTheme = {
   "React js": {
-    bg: "#39A5AD",      
-    color: "#00C8FF"   
+    src : "react-js.svg" 
   },
   "Node js": {
-    bg: "#2FB343",      
-    color: "#00FF37"
+       src : "nodejs.svg" 
   },
   "Express js": {
-    bg: "#778278",      
-    color: "#FFFFFF"
+         src : "nodejs.svg" 
+
   },
   "Tailwind": {
-    bg: "#65BE97",      
-    color: "#65BE97"    
+           src : "tailwind-css.svg" 
+
   },
   "Mongo DB": {
-    bg: "#75D75D",      
-    color: "#0EDB03"
+          src : "mongodb.svg" 
+
   },
   "AWS EC2": {
-    bg: "#FF9900",     
-    color: "#D4712B"
+          src : "EC2.svg" 
+
   },
   "AWS S3": {
-    bg: "#00FF37",     
-    color: "#00FF37"
+          src : "S3.svg" 
+
   },
   "Docker": {
-    bg: "#469AED",     
-    color: "#6EB6FD"
+          src : "docker.svg" 
+
   },
   "Java": {
-    bg: "#469AED",     
-    color: "#6EB6FD"
+          src : "java.svg" 
+
   },
   "WebSocket" : {
-    bg: "#E7672C",     
-    color: "#E7672C"
+          src : "nodejs.svg" 
+
   }
 };
 

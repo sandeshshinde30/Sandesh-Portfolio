@@ -24,7 +24,7 @@ const projectData =
         title : "FundFlow",
         image : "FundFlow.png",
         description : "BlockChain Powered FundRaiser",
-        technologies : ["React js","Node js","Express js","Tailwind","Docker","WebSocket"],
+        technologies : ["React js","Node js","Express js","Tailwind","Docker"],
         live : false,
         liveLink : "",
         github : "https://github.com/sandeshshinde30/FundFlow"

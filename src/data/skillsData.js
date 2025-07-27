@@ -22,6 +22,7 @@ const skills = {
     other : [
         {tech : "docker" , icon:"docker.svg"},
         {tech : "linux" , icon:"linux.svg"},   
+        
     ],
 }
 
